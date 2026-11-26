@@ -1,0 +1,11 @@
+.env
+/config.py
+data/cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.xlsx
+results_study/**/evals_*.json
+
+# FinMind 原始資料不得再散布：基準股價請自行執行 fetch_benchmarks.py 下載
+data/benchmarks/*.csv
